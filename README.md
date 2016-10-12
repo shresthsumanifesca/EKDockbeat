@@ -1,5 +1,8 @@
 # Da solution
 
+This solution can be used to get some metrics about docker-engines and docker containers.
+It's purely metrology and provide a lot of informations like CPU and mem usage, as well as network metrics ; per host, per engine, per containers. 
+
 - ElasticSearch (elasticsearch:latest)
 - Kibana (rebuild FROM kibana:latest)
 - Dockbeat (FROM alpine:latest, inspired by https://hub.docker.com/r/redmatter/dockbeat/)
