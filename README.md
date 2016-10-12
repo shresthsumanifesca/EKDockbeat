@@ -1,9 +1,9 @@
-# Components
+# Da solution
 
 - ElasticSearch (elasticsearch:latest)
 - Kibana (rebuild FROM kibana:latest)
 - Dockbeat (FROM alpine:latest, inspired by https://hub.docker.com/r/redmatter/dockbeat/)
-- This compose is static strings to get Dockbeat and Dockbeat's glibc
+- This implementation is using static strings to get Dockbeat and Dockbeat's glibc
   - You actually need to change a few env vars in dockbeatuild/Dockerfile to change these versions
 - And also, it's mounting /var/run/docker.sock to get informations about docker-engine and his containers
 
