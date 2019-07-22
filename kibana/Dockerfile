@@ -1,6 +1,6 @@
 FROM kibana:6.5.2
 
-RUN apt-get update && apt-get install -y netcat
+RUN apt update && apt install -y netcat
 
 COPY entrypoint.sh /tmp/entrypoint.sh
 RUN chmod +x /tmp/entrypoint.sh
